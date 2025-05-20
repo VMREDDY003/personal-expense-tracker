@@ -86,10 +86,10 @@ Gain insights into top spending areas, cashback trends, and monthly financial be
 - And many more insights tailored to personal finance.
 
 # Project Structure
-| ├── app.py                   # Streamlit application code \
-| ├── data_generation.py       # Script for data simulation and database population \
-| ├── expenses.db              # SQLite database with expense data \
-| ├── requirements.txt         # Python dependencies \
-| ├── README.md                # Project documentation (this file) \
-| └── sql_queries.sql          # All SQL queries used for analysis
+| ├── app.py                   <sub> # Streamlit application code \ <\sub>
+| ├── data_generation.py       <sub> # Script for data simulation and database population \ <\sub>
+| ├── expenses.db              <sub> # SQLite database with expense data \ <\sub>
+| ├── requirements.txt         <sub> # Python dependencies \ <\sub>
+| ├── README.md                <sub> # Project documentation (this file) \ <\sub>
+| └── sql_queries.sql          <sub> # All SQL queries used for analysis <\sub>
 
