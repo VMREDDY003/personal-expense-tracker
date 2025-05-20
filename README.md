@@ -92,3 +92,4 @@ Gain insights into top spending areas, cashback trends, and monthly financial be
 ├── requirements.txt         # Python dependencies
 ├── README.md                # Project documentation (this file)
 └── sql_queries.sql          # All SQL queries used for analysis
+
