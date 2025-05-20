@@ -103,5 +103,5 @@ cashback_transactions = filtered_df[filtered_df['cashback'] > 0].sort_values(by=
 st.dataframe(cashback_transactions.head(10))
 
 st.markdown("---")
-st.markdown("Developed by YourName | Powered by Streamlit")
+st.markdown("Developed by VMREDDY | Powered by Streamlit")
 
