@@ -64,31 +64,28 @@ python data_generation.py
 
 streamlit run app.py
 # Usage
-Use the sidebar filters in the app to select the desired month, category, or payment mode.
+- Use the sidebar filters in the app to select the desired month, category, or payment mode.
 
-Explore various charts and tables to analyze spending habits.
+- Explore various charts and tables to analyze spending habits.
 
 Gain insights into top spending areas, cashback trends, and monthly financial behavior.
 
 # SQL Queries
-The project includes over 20 SQL queries that analyze:
+- The project includes over 20 SQL queries that analyze:
 
-Total amount spent per category and payment mode.
+- Total amount spent per category and payment mode.
 
-Monthly spending and cashback trends.
+- Monthly spending and cashback trends.
 
-Top 5 most expensive categories.
+- Top 5 most expensive categories.
 
-Recurring expenses.
+- Recurring expenses.
 
-Spending patterns on weekends vs. weekdays.
+- Spending patterns on weekends vs. weekdays.
 
-And many more insights tailored to personal finance.
+- And many more insights tailored to personal finance.
 
 # Project Structure
-bash
-Copy
-Edit
 ├── app.py                   # Streamlit application code
 ├── data_generation.py       # Script for data simulation and database population
 ├── expenses.db              # SQLite database with expense data
