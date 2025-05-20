@@ -48,39 +48,29 @@ The dataset is a simulated collection of personal expenses with the following fi
    ```bash
    git clone https://github.com/yourusername/personal-expense-tracker.git
    cd personal-expense-tracker
-Create a virtual environment and activate it (optional but recommended):
+## Create a virtual environment and activate it (optional but recommended):
 
-bash
-Copy
-Edit
 python -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
-Install dependencies:
 
-bash
-Copy
-Edit
+## Install dependencies:
 pip install -r requirements.txt
-Run the data generation and database setup script:
 
-bash
-Copy
-Edit
+## Run the data generation and database setup script:
+
 python data_generation.py
-Launch the Streamlit app:
 
-bash
-Copy
-Edit
+## Launch the Streamlit app:
+
 streamlit run app.py
-Usage
+# Usage
 Use the sidebar filters in the app to select the desired month, category, or payment mode.
 
 Explore various charts and tables to analyze spending habits.
 
 Gain insights into top spending areas, cashback trends, and monthly financial behavior.
 
-SQL Queries
+# SQL Queries
 The project includes over 20 SQL queries that analyze:
 
 Total amount spent per category and payment mode.
@@ -95,7 +85,7 @@ Spending patterns on weekends vs. weekdays.
 
 And many more insights tailored to personal finance.
 
-Project Structure
+# Project Structure
 bash
 Copy
 Edit
